@@ -1,0 +1,14 @@
+package Store;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import Product.StoreService;
+
+@SpringBootApplication
+public class StoreProjectApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(StoreProjectApplication.class, args);
+	}
+}
